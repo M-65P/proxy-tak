@@ -10,9 +10,9 @@ Ubuntu
 3. Run the script 
 
         `git clone https://github.com/xlinuxmanx/auto-vpn.git
-    cd auto-vpn
-    chmod +x {setup.sh,win-client.sh}
-    `./setup.sh`
+         cd auto-vpn
+         chmod +x {setup.sh,win-client.sh}
+         ./setup.sh`
     
 During Updates, you may be asked which grub configuration to use, just select to keep the current (default selected)
     
