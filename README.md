@@ -7,11 +7,11 @@ Ubuntu
 # Instructions
 1. Download the files
 
-    `git clone https://github.com/xlinuxmanx/auto-vpn.git`
+    `git clone https://github.com/M-65P/proxy-tak.git`
 
 2. CD Into the folder and make the scipt executable
 
-    `cd auto-vpn`
+    `cd proxy-tak`
     
     `chmod +x {setup.sh,win-client.sh}`
 
