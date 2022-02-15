@@ -4,19 +4,25 @@ Easily create an anonymous VPN and Proxy with Digital Ocean, no logs, destroy at
 # Distributions
 Ubuntu
 
-# Install 
+# Instructions
 1. Download the files
-2. CD Into the folder and make the scipt executable
-3. Run the script 
 
-        `git clone https://github.com/M-65P/proxy-tak.git
-         cd proxy-tak
-         chmod +x {setup.sh,win-client.sh}
-         ./setup.sh`
+    `git clone https://github.com/M-65P/proxy-tak.git
+`
+
+2. CD Into the folder and make the scipt executable
+
+    `cd proxy-tak`
     
-During Updates, you may be asked which grub configuration to use, just select to keep the current (default selected)
+    `chmod +x {setup.sh,win-client.sh}`
+
+3. Run the script
+
+    `./setup.sh`
     
-During the setup, select **yes** on the prompts for IP Tables
+    During Updates, you may be asked which grub configuration to use, just select to keep the current (default selected)
+    
+    During the setup, select **yes** on the prompts for IP Tables
    
 4. At the end of the script, you will be given a URL including user/pass to download the config files later as well as the proxy address and port to use in either your browser or network settings.. Take a note of it!
  
