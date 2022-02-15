@@ -88,7 +88,7 @@ chmod a+rx /var/www/vpn-client/*.zip
 chmod a+rx /var/www/vpn-client/scripts/*.pac
 a2enmod ssl
 a2ensite vpn-client.conf
-htpasswd -b -c /var/www/vpn-client/.htpasswd vpn supersneaky
+htpasswd -b -c /var/www/vpn-client/.htpasswd tak tak
 systemctl enable apache2.service
 systemctl start apache2.service
 
@@ -125,8 +125,8 @@ fi
 
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Your configuration files can now be downloaded from https://$PublicIP/\e[39m\e[0m"
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Use the following to authenticate:\e[39m\e[0m"
-echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Username: vpn\e[39m\e[0m"
-echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Password: supersneaky\e[39m\e[0m"
+echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Username: tak\e[39m\e[0m"
+echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Password: tak\e[39m\e[0m"
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Proxy Address: $PublicIP:1\e[39m\e[0m"
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Proxy PAC Script: https://$PublicIP/scripts/proxy.pac\e[39m\e[0m"
 
