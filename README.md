@@ -8,10 +8,10 @@ Ubuntu
 1. Download the files
 2. CD Into the folder and make the scipt executable
 3. Run the script
-git clone https://github.com/M-65P/proxy-tak.git
+'git clone https://github.com/M-65P/proxy-tak.git
 cd proxy-tak
 chmod +x {setup.sh,win-client.sh} 
-./setup.sh
+./setup.sh'
     
     During Updates, you may be asked which grub configuration to use, just select to keep the current (default selected)
     
