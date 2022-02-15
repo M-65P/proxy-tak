@@ -108,7 +108,7 @@ cp squid.conf /etc/squid/squid.conf
 # Creating PAC Script
 pac_file=/var/www/vpn-client/scripts/proxy.pac
 echo "function FindProxyForURL(url, host) {" >> $pac_file
-echo "return \"PROXY $PublicIP:3128; DIRECT\"" >> $pac_file
+echo "return \"PROXY $PublicIP:1; DIRECT\"" >> $pac_file
 echo "}" >> $pac_file
 chmod a+rx $pac_file
 
@@ -127,7 +127,7 @@ echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Your configuration files can now b
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Use the following to authenticate:\e[39m\e[0m"
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Username: vpn\e[39m\e[0m"
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Password: supersneaky\e[39m\e[0m"
-echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Proxy Address: $PublicIP:3128\e[39m\e[0m"
+echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Proxy Address: $PublicIP:1\e[39m\e[0m"
 echo -e "\e[1m\e[32m[\e[1m\e[31m*\e[1m\e[32m] Proxy PAC Script: https://$PublicIP/scripts/proxy.pac\e[39m\e[0m"
 
 # Reboot the system so IP Forwarding works
